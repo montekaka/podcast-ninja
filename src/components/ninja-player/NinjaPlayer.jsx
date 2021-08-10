@@ -7,6 +7,7 @@ import {
   playingIdAtom
 } from './jotai'
 import PlayerHolder from './PlayerHolder'
+import EpisodeList from './EpisodeList';
 
 const NinjaPlayer = ({
   podcast, episodes, theme
@@ -36,6 +37,7 @@ const NinjaPlayer = ({
 
   return (
     <div className="jc-player-wrapper">
+      <EpisodeList/>
       <PlayerHolder/>
     </div>
   )
