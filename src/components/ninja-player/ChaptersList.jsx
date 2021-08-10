@@ -13,7 +13,7 @@ const ChaptersList = ({chapters}) => {
   }
 
   return (
-    <div className="chapters">
+    <div className="jc-chapters">
       {
         chapters.map((chapter, idx) => {
           if(chapter.title && chapter.startTime) {

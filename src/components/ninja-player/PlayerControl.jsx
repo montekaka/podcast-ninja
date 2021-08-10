@@ -15,7 +15,7 @@ const PlayerControl = () => {
   const [playerSkin] = useAtom(playerSkinAtom);
 
   return (
-    <div className="player-control">
+    <div className="jc-player-control">
       {/* <Camera style={{color: '#ACDAF5'}}/> */}
       <div className="controls">
         <ProgressChangeButton label="5" 
@@ -44,7 +44,7 @@ const PlayerControl = () => {
         {/* <ProgressBackward/>
         <ProgressForward/> */}
       </div>
-      <div className="progress-bar">
+      <div className="jc-progress-bar">
         <div className="progress-time" style={{
           color: playerSkin.primaryTextColor
         }}>

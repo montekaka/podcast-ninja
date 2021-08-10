@@ -8,7 +8,7 @@ const ChaptersListItem = (props) => {
   const [playerSkin] = useAtom(playerSkinAtom)
 
   return (
-    <div className="chapter" onClick={() => {
+    <div className="jc-chapter" onClick={() => {
       onClick(id);
       }}
       style={{
@@ -16,8 +16,8 @@ const ChaptersListItem = (props) => {
         color: playerSkin.chapterTextColor
       }}
     >
-      <div className="chapter-title">{title}</div>
-      <div className="chapter-subtitle">{getHHMMSSFromSeconds(startTime)}</div>
+      <div className="jc-chapter-title">{title}</div>
+      <div className="jc-chapter-subtitle">{getHHMMSSFromSeconds(startTime)}</div>
     </div>
   )
 }

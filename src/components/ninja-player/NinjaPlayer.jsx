@@ -9,6 +9,7 @@ import {
 import PlayerContainer from './PlayerContainer'
 import PlayerHolder from './PlayerHolder'
 import EpisodeList from './EpisodeList';
+import './ninja-player.css';
 
 const NinjaPlayer = ({
   podcast, episodes, theme
