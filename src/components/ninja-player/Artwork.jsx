@@ -17,7 +17,6 @@ Artwork.propTypes = {
   artworkUrl: PropTypes.string
 }
 
-
 Artwork.defaultProps = {
   artworkUrl: null,
 };
