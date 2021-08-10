@@ -6,6 +6,7 @@ import {
   playerSkinAtom,
   playingIdAtom
 } from './jotai'
+import PlayerContainer from './PlayerContainer'
 import PlayerHolder from './PlayerHolder'
 import EpisodeList from './EpisodeList';
 
@@ -37,6 +38,7 @@ const NinjaPlayer = ({
 
   return (
     <div className="jc-player-wrapper">
+      <PlayerContainer/>
       <EpisodeList/>
       <PlayerHolder/>
     </div>
